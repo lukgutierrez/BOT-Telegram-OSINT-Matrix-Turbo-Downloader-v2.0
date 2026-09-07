@@ -1,0 +1,70 @@
+# ============================================================
+# TELEGRAM OSINT MATRIX & MEDIA DOWNLOADER - .gitignore
+# Created by @lukgtz
+# ============================================================
+
+# --- Telegram Sessions (SENSITIVE - NEVER COMMIT) ---
+*.session
+*.session-journal
+user_session.session
+bot_session.session
+
+# --- Google Drive Credentials & OAuth Tokens (SENSITIVE) ---
+gdrive_token.json
+gdrive_credentials.json
+client_secrets*.json
+token*.json
+credentials*.json
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Local Databases & Cache ---
+*.db
+*.sqlite
+*.sqlite3
+downloads_hashes.db
+downloads_hashes.db-journal
+
+# --- Downloaded Media Files & Folders ---
+downloads/
+downloads/**
+temp/
+tmp/
+*.part
+*.crdownload
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- Streamlit & Web GUI Cache ---
+.streamlit/secrets.toml
+
+# --- Operating System Files ---
+Thumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# --- IDE & Editor Configs ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
