@@ -63,6 +63,21 @@ $RECYCLE.BIN/
 *.swo
 *~
 
+# --- Standalone v3 Repository & Mobile Artifacts ---
+telegram_media_hub_v3/
+*.apk
+*.aab
+*.tar.gz
+*.exe
+cloudflared.exe
+TelegramMediaHub_v3.apk
+deploy_oracle_vps.sh
+GUIA_DESPLIEGUE_ORACLE_VPS.md
+iniciar_flutter_web.bat
+iniciar_publico_en_internet.bat
+*.key
+*.pem
+
 # --- IDE & Editor Configs ---
 .idea/
 .vscode/

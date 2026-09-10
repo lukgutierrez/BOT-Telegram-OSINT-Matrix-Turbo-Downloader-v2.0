@@ -390,17 +390,32 @@ El sistema captura automáticamente los errores de FloodWait y espera pacienteme
 
 ---
 
-## 📚 DOCUMENTACIÓN TÉCNICA PARA DESARROLLADORES
+## 📚 DOCUMENTACIÓN TÉCNICA FORMAL & ESPECIFICACIONES
 
-- 🤖 **[`AGENTS.md`](AGENTS.md):** Documento técnico exhaustivo con decisiones de arquitectura (ADRs), especificación de patrones asíncronos (`MemorySession` + daemon thread) y lineamientos de extensión para agentes de IA o desarrolladores.
+- 🤖 **[`agent.md`](agent.md):** Rol del agente de IA, stack técnico de ingeniería y reglas inmutables de desarrollo.
+- 📋 **[`specs/01-requerimientos.md`](specs/01-requerimientos.md):** Requerimientos funcionales y no funcionales del sistema v2.0.
+- 🧭 **[`specs/02-flujo-usuario.md`](specs/02-flujo-usuario.md):** Diagrama de secuencia y recorrido operativo de la consola web.
+- 🏗️ **[`specs/03-arquitectura.md`](specs/03-arquitectura.md):** Arquitectura modular, flujo de datos y dependencias clave.
+- 🗄️ **[`specs/04-modelo-datos.md`](specs/04-modelo-datos.md):** Esquema SQLite de deduplicación y organización determinista de archivos.
+- 📜 **[`docs/DECISIONS.md`](docs/DECISIONS.md):** Registro histórico de Decisiones de Arquitectura (ADR-001 a ADR-004).
+- 📊 **[`docs/STATE.md`](docs/STATE.md):** Estado operativo actual y verificación de hitos.
 - 📖 **[`GUIA_DE_USO.md`](GUIA_DE_USO.md):** Manual extendido en español para usuarios finales y administradores de sistemas.
+
+---
+
+## ☁️ EDICIÓN CLOUD & APP MÓVIL (Versión 3.0)
+
+Para la versión empresarial distribuida 24/7 en servidores en la nube con **App Móvil Android (Flutter Release APK), Docker Compose, PostgreSQL 16, Redis 7 y WebSockets en tiempo real**, consulta el repositorio complementario:
+
+👉 **[Telegram-Media-Hub-v3.0-Cloud-Mobile](https://github.com/lukgutierrez/Telegram-Media-Hub-v3.0-Cloud-Mobile)**
 
 ---
 
 <div align="center">
 
-**TELEGRAM OSINT RECON MATRIX & TURBO MEDIA DOWNLOADER**  
-*Desarrollado con rigor técnico por:* **`@lukgtz`**  
+**TELEGRAM OSINT RECON MATRIX & TURBO MEDIA DOWNLOADER v2.0**  
+*Desarrollado con rigor técnico por:* **`@lukgtz` (Luciano Gutiérrez)**  
 *Salta, Argentina &bull; 2026*
 
 </div>
+
